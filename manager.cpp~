@@ -1,0 +1,10 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc,char * argv[]){
+	cout<<"正在打开pico工程管理器"<<endl;
+	system("python ./pico_project.py --gui");
+	cout<<"请创建你的工程设置"<<endl;
+	return 0;
+}
